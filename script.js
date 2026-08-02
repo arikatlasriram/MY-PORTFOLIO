@@ -73,7 +73,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 });
 
                 if (response.ok) {
-                    formStatus.textContent = 'Message sent! If this is your first time, please check your email (and Spam folder) to click "Activate Form".';
+                    formStatus.textContent = 'Message sent successfully!';
                     formStatus.className = 'success';
                     contactForm.reset();
                 } else {
